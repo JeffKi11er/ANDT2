@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:background="#3B000000"
+            android:orientation="vertical"
+            android:id="@+id/gray">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#F22F21F3"
+                android:orientation="horizontal">
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@android:drawable/ic_menu_revert"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="27dp"
+                    android:text="Ali Connors"
+                    android:paddingLeft="55dp"
+                    android:paddingTop="15dp"
+                    android:textColor="#C1F5F4F4"/>
+                <EditText
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@android:drawable/ic_menu_edit"
+                    android:paddingLeft="90dp"
+                    android:paddingRight="30dp"
+                    android:drawableRight="@android:drawable/ic_dialog_dialer"/>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/first"
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:layout_below="@id/star"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:drawableLeft="@android:drawable/ic_menu_call" />
+
+                <LinearLayout
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="35dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="250dp"
+                        android:layout_height="wrap_content"
+                        android:text="(650)555-1234"
+                        android:textColor="#000"
+                        android:textSize="20dp"
+                        android:paddingTop="20dp"
+                        />
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="Mobile"
+                        android:textSize="15dp" />
+                </LinearLayout>
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="150dp"
+                    android:layout_marginTop="15dp"
+                    android:drawableRight="@android:drawable/sym_action_chat" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/second"
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:layout_below="@id/first"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="75dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="250dp"
+                        android:layout_height="wrap_content"
+                        android:text="(323)555-6789"
+                        android:textColor="#000"
+                        android:textSize="20dp"
+
+                        />
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="Work"
+                        android:textSize="15dp" />
+                </LinearLayout>
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="150dp"
+                    android:layout_marginTop="10dp"
+                    android:drawableRight="@android:drawable/sym_action_chat" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/third"
+                android:layout_width="450dp"
+                android:layout_height="95dp"
+                android:layout_below="@id/second"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@android:drawable/ic_dialog_email"/>
+                <LinearLayout
+                    android:layout_width="600dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="40dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="aliconnors@example.com"
+                        android:textColor="#000"
+                        android:textSize="20dp"
+                        android:layout_marginTop="10dp"
+
+                        />
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="Personal"
+                        android:textSize="15dp" />
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/fourth"
+                android:layout_width="450dp"
+                android:layout_height="80dp"
+                android:layout_below="@id/third"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="600dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="80dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="ali_connors@example.com"
+                        android:textColor="#000"
+                        android:textSize="20dp"
+
+                        />
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="Work"
+                        android:textSize="15dp" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_below="@id/gray"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="135dp"
+                android:layout_height="200dp"
+                android:orientation="vertical"
+                android:layout_marginTop="20dp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:orientation="vertical"
+                    >
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:src="@drawable/gmail"
+                        android:id="@+id/gmailicon"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/gmailicon"
+                        android:textSize="15dp"
+                        android:text="Gmail"
+                        android:paddingLeft="50dp"
+                        />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:orientation="vertical"
+                    >
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:src="@drawable/messaeg"
+                        android:id="@+id/message"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/message"
+                        android:textSize="15dp"
+                        android:text="Mail"
+                        android:paddingLeft="50dp"
+                        />
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="135dp"
+                android:layout_height="200dp"
+                android:orientation="vertical"
+                android:layout_marginTop="20dp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:orientation="vertical"
+                    >
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:src="@drawable/e3bc32b0bb63365aa483dfe7e52d5d40"
+                        android:id="@+id/hangout"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/hangout"
+                        android:textSize="15dp"
+                        android:text="Hangout"
+                        android:paddingLeft="40dp"
+                        />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:orientation="vertical"
+                    >
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:src="@drawable/m"
+                        android:scaleX="1.25"
+                        android:scaleY="1.25"
+                        android:id="@+id/nessage"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/nessage"
+                        android:textSize="15dp"
+                        android:text="Message"
+                        android:paddingLeft="40dp"
+                        />
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="135dp"
+                android:layout_height="200dp"
+                android:orientation="vertical"
+                android:layout_marginTop="20dp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:orientation="vertical"
+                    >
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:src="@drawable/er"
+                        android:id="@+id/googlep"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/googlep"
+                        android:textSize="15dp"
+                        android:text="Google + "
+                        android:paddingLeft="40dp"
+                        />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:orientation="vertical"
+                    >
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:src="@drawable/threedot"
+                        android:id="@+id/more"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/more"
+                        android:textSize="15dp"
+                        android:text="More"
+                        android:paddingLeft="50dp"
+                        />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>
